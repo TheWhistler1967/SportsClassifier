@@ -15,6 +15,8 @@ Model can currently only identify:
 			tennis ball
 			basketball
 
+Small Dataset: Only 32 instances of each class used for training.
+
 test.py and renamer.py both set to use a savepoint model: 'model.h5', which was about 92% on val and 95% on test. final_model was at the end of 2000 epochs, which was 86% on valid.
 
 But with such a small number on my valid set, it is hard to know which of these is actually performing better without setting up a full largescale test.
